@@ -1,4 +1,3 @@
-import react from "react";
 import { ProjectsStyled } from "./Projects.styled";
 
 export const Projects = () => {

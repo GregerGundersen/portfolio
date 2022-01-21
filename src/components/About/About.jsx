@@ -1,4 +1,3 @@
-import react from "react";
 import { AboutStyled } from "./About.styled";
 
 export const About = () => {
@@ -9,7 +8,7 @@ export const About = () => {
         <div className="image">
           <img
             src={require("../../media/profile_picture.jpg")}
-            alt="Picture of me"
+            alt="Me and my dog"
           ></img>
         </div>
         <div className="bio">

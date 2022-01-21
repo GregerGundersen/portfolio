@@ -1,4 +1,3 @@
-import styled from "styled-components";
 import { createGlobalStyle } from "styled-components";
 
 export const colors = {
@@ -43,7 +42,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     .title{
-          position: relative;
+    position: relative;
     text-align: center;
     margin: ${spacing.title_main};
     font-size: ${fonts.titleSize};

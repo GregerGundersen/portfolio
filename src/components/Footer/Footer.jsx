@@ -1,4 +1,3 @@
-import react from "react";
 import { FooterStyled } from "./Footer.styled";
 import footerBg from "../../media/wave_footer2.svg";
 
