@@ -15,12 +15,6 @@ export const ProjectsStyled = styled.div`
   .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 4fr));
-
-    .class2 {
-      color: red;
-      width: 100vw;
-      background-color: black;
-    }
   }
 
   .proj {

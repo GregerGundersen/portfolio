@@ -26,6 +26,7 @@ export const HeaderStyled = styled.div`
     color: white;
     border: 2px solid white;
     margin-top: 50px;
+    cursor: pointer;
 
     i {
       margin-left: 10px;
