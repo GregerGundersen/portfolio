@@ -9,33 +9,36 @@ const Footer = () => {
         <h2 className="title">Contact</h2>
         <div className="form">
           <form>
-            <input type="text" id="name" placeholder="name"></input>
-            <input type="text" id="email" placeholder="email"></input>
+            <input type="text" id="name" placeholder="Name"></input>
+            <input type="text" id="email" placeholder="E-mail"></input>
           </form>
-          <textarea placeholder="message"></textarea>
+          <textarea placeholder="Message"></textarea>
         </div>
       </div>
       <div className="footer_socials">
         <div className="footer_socials__icons">
           <a href="https://www.linkedin.com/in/greger-gundersen-5a9771213/">
-            <i class="fab fa-linkedin"></i>
+            <i className="fab fa-linkedin"></i>
           </a>
         </div>
         <div className="footer_socials__icons">
           <a href="https://www.facebook.com/greger.gundersen/">
-            <i class="fab fa-facebook-f"></i>
+            <i className="fab fa-facebook-f"></i>
           </a>
         </div>
         <div className="footer_socials__icons">
           <a href="https://www.instagram.com/rggundersen/">
-            <i class="fab fa-instagram"></i>
+            <i className="fab fa-instagram"></i>
           </a>
         </div>
         <div className="footer_socials__icons">
           <a href="https://github.com/GregerGundersen">
-            <i class="fab fa-github"></i>
+            <i className="fab fa-github"></i>
           </a>
         </div>
+      </div>
+      <div className="copy">
+        <p>&#169; Greger Gundersen 2022</p>
       </div>
     </FooterStyled>
   );

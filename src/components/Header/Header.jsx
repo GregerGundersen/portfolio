@@ -25,7 +25,7 @@ const Header = (props) => {
       <h1>I'm a frontend-developer in training</h1>
       <div className="learnMore">
         <h2>Learn more</h2>
-        <i class="fas fa-arrow-right"></i>
+        <i className="fas fa-arrow-right"></i>
       </div>
     </HeaderStyled>
   );
