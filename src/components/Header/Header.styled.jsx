@@ -1,5 +1,11 @@
 import styled from "styled-components";
 import { colors } from "../../App.styled";
+import { Link } from "react-router-dom";
+
+export const StyledLink = styled(Link)`
+  text-decoration: none;
+  color: white;
+`;
 
 export const HeaderStyled = styled.div`
   height: 100vh;
@@ -31,6 +37,23 @@ export const HeaderStyled = styled.div`
     i {
       margin-left: 10px;
       font-size: 20px;
+    }
+  }
+
+  .navigation {
+    width: 50vw;
+    padding: 1rem;
+    margin-top: 3rem;
+    ul {
+      display: flex;
+      justify-content: space-around;
+      list-style: none;
+      text-decoration: none;
+
+      /* li {
+        color: white;
+        text-decoration: none;
+      } */
     }
   }
 `;

@@ -37,7 +37,7 @@ export const GlobalStyle = createGlobalStyle`
     h1,h2,h3,h4,h5{
       font-family: ${fonts.HeaderFraunces}
     }
-    p,span,a, input, textarea, ::placeholder{
+    li, p,span,a, input, textarea, ::placeholder{
       font-family: ${fonts.BodyCommissioner}
     }
 

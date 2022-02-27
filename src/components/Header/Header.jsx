@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { HeaderStyled } from "./Header.styled";
 import NET from "vanta/src/vanta.net";
+import { StyledLink } from "./Header.styled";
 
 const Header = (props) => {
   const [vantaEffect, setVantaEffect] = useState(0);
@@ -32,6 +33,22 @@ const Header = (props) => {
       <div onClick={learnMoreScroll} className="learnMore">
         <h2>Learn more</h2>
         <i className="fas fa-arrow-right"></i>
+      </div>
+      <div className="navigation">
+        <ul>
+          <StyledLink to="/">
+            <li>Home</li>
+          </StyledLink>
+          <StyledLink to="/my-portfolio">
+            <li>Portfolio</li>
+          </StyledLink>
+          <StyledLink to="/about">
+            <li>About</li>
+          </StyledLink>
+          <StyledLink to="/contact-me">
+            <li>Contact</li>
+          </StyledLink>
+        </ul>
       </div>
     </HeaderStyled>
   );
